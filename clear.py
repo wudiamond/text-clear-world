@@ -12,7 +12,7 @@ async def on_ready():
 
 async def on_message(message):
     if message.channel.id == 頻道id:
-        await message.add_reaction('<a:dm_101:1072339232867237898>')
+        await message.add_reaction(':wastebasket:')
         await asyncio.sleep(10)
         await message.delete()
 
